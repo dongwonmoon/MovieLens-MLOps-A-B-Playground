@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "generatedAt": "2025-05-30T23:16:28.310Z",
+    "tasksAnalyzed": 10,
+    "totalTasks": 10,
+    "analysisCount": 10,
+    "thresholdScore": 5,
+    "projectName": "Taskmaster",
+    "usedResearch": false
+  },
+  "complexityAnalysis": [
+    {
+      "taskId": 1,
+      "taskTitle": "MovieLens 데이터 로딩 및 Feature Store 연동",
+      "complexityScore": 7,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand subtasks to include detailed steps for each stage of data loading, preprocessing, feature engineering, and Redis integration.",
+      "reasoning": "This task involves multiple stages of data handling and integration, each with its own set of potential issues and dependencies."
+    },
+    {
+      "taskId": 2,
+      "taskTitle": "CF/SVD 추천 알고리즘 구현",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Break down the task into subtasks for algorithm implementation, model training, evaluation, and optimization.",
+      "reasoning": "Implementing and evaluating recommendation algorithms requires careful planning and testing."
+    },
+    {
+      "taskId": 3,
+      "taskTitle": "MLflow 실험 추적 통합",
+      "complexityScore": 5,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Divide the task into subtasks for setting up MLflow, logging experiments, and registering models.",
+      "reasoning": "Integrating MLflow involves several steps that can be managed more effectively as separate subtasks."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "기본 A/B 테스트 로직 구현",
+      "complexityScore": 5,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Break down the task into subtasks for implementing the A/B testing logic, user group allocation, and data partitioning.",
+      "reasoning": "A/B testing involves multiple components that can be managed as separate subtasks."
+    },
+    {
+      "taskId": 5,
+      "taskTitle": "Streamlit 대시보드 구현",
+      "complexityScore": 6,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Divide the task into subtasks for designing the dashboard, implementing real-time updates, and testing the visualization.",
+      "reasoning": "Creating a dashboard involves design, implementation, and testing, which can be managed as separate subtasks."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "Docker 컨테이너화",
+      "complexityScore": 5,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Break down the task into subtasks for containerizing each component, writing Docker Compose files, and testing the containers.",
+      "reasoning": "Containerization involves several steps that can be managed more effectively as separate subtasks."
+    },
+    {
+      "taskId": 7,
+      "taskTitle": "고급 모델(NCF, Wide & Deep) 추가",
+      "complexityScore": 7,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Divide the task into subtasks for implementing each model, training, evaluating, and comparing performance.",
+      "reasoning": "Implementing and evaluating advanced models requires careful planning and testing."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "AutoML 기반 하이퍼파라미터 튜닝",
+      "complexityScore": 6,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Break down the task into subtasks for setting up AutoML, running hyperparameter tuning, and saving results.",
+      "reasoning": "Hyperparameter tuning involves several steps that can be managed more effectively as separate subtasks."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "Airflow DAG 자동화",
+      "complexityScore": 6,
+      "recommendedSubtasks": 3,
+      "expansionPrompt": "Divide the task into subtasks for designing the DAG, writing the DAG file, and deploying it.",
+      "reasoning": "Automating data pipelines involves design, implementation, and deployment, which can be managed as separate subtasks."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "Kubeflow 기반 MLOps 파이프라인 통합",
+      "complexityScore": 8,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the task into subtasks for setting up Kubeflow, integrating the pipeline, testing, and deploying.",
+      "reasoning": "Integrating MLOps pipelines involves multiple complex steps that can be managed more effectively as separate subtasks."
+    }
+  ]
+}
